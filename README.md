@@ -12,6 +12,19 @@
 # [Frontend Masters](https://frontendmasters.com/)
 ## [Complete Intro to React, v5 - Brian Holt](https://frontendmasters.com/courses/complete-react-v5/)
 #### Introduction
+```
+1. Introduction
+     - 
+2. Project setup
+     -
+3. A note on course font
+     - 
+```
 ---
+
+
 #### Pure React
+---
+
+#### Tools
 ---
