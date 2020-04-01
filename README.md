@@ -28,3 +28,21 @@
 
 #### Tools
 ---
+
+## NOTES:
+```
+1. class component
+2. functional component
+     - good, easy to test, easy to predict,  has less overhead as opposed to classes (Rob)
+     - pure vs impure functions? (Rob)
+
+- classes should only be used if you're dealing with stateful components
+- functional can do stateful now
+- useEffect
+
+- hook
+- context
+
+
+- but, hooking the context, makes the code less complicate
+```
