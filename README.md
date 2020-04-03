@@ -56,7 +56,11 @@
 ```
 - NPM and generating a package.json file
      > Node Package Manager
-     > "This is going to allow us to, rather than just loading node off of the CDN, we're gonna actually install it off of the registry and build our project. So that it's actually included with the package, and we don't have to rely on unpackage to be up, right?"
+     > This is going to allow us to, rather than just loading node off of the CDN,
+       we're gonna actually install it off of the registry and build our project.
+       So that it's actually included with the package, and we don't have to rely on unpackage to be up, right?"
+     > Unpackage is really good for just like testing things out. But do not rely on it
+       for production traffic, cuz then you're at their mercy, okay?
 - Prettier
 - NPM scripts
 - Prettier setup
