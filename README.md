@@ -28,7 +28,9 @@
 - Introduction
 - Project setup
      > Import React and ReactDOM CDN in script tag.
+     > explain why ReactDOM needs to import
 - A note on course font
+     > how to customize VSCode fonts
 ```
 
 ---
@@ -37,15 +39,23 @@
 
 ```
 - Getting started with pure React
+     > basic understanding of components
 - createElement arguments.
+     > understading of arguments
 - Reusable components.
 - Passing in component Props.
+     > Props = properties
 - Destructuring props.
+     > for reusability
 ```
 
 ---
 
 #### Tools
+
+```
+- npm and generating a package.json file.
+```
 
 ---
 
