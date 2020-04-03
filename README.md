@@ -40,12 +40,12 @@
 ```
 - Getting started with pure React
      > basic understanding of components
-- createElement arguments.
+- createElement arguments
      > understading of arguments
-- Reusable components.
-- Passing in component Props.
+- Reusable components
+- Passing in component Props
      > Props = properties
-- Destructuring props.
+- Destructuring props
      > for reusability
 ```
 
@@ -54,7 +54,18 @@
 #### Tools
 
 ```
-- npm and generating a package.json file.
+- NPM and generating a package.json file
+     > Node Package Manager
+     > "This is going to allow us to, rather than just loading node off of the CDN, we're gonna actually install it off of the registry and build our project. So that it's actually included with the package, and we don't have to rely on unpackage to be up, right?"
+- Prettier
+- NPM scripts
+- Prettier setup
+- ESlint setup
+- ESlint configuration
+- gitignore
+- Parcel
+- Installing React and ReactDOM
+- Separate App into Modules
 ```
 
 ---
