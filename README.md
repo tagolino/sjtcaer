@@ -138,14 +138,22 @@
           >> eslint
           >> npm intellisense
 - Separate App into Modules
+     > Useful shortcut command to select block of code and move it to a new file.
      > VSCode action
           >> highlight a codes in the file
           >> click the bulb icon
           >> select move to a new file option
           >> voila!
 ```
-
 ---
+
+#### JSX
+
+```
+- Converting to JSX
+- Configuring ESLint for React
+- JSX Composite Components & Expressions
+```
 
 ## NOTES:
 
