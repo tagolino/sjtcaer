@@ -151,6 +151,11 @@
 
 ```
 - Converting to JSX
+     > Babel -- library
+     > returning a HTML React tag
+     > VSCode extension -- Javascript React
+          >> Or change the file extension to jsx
+          >> .jsx extension is not neccessary according to React team.
 - Configuring ESLint for React
 - JSX Composite Components & Expressions
 ```
