@@ -175,8 +175,11 @@
      > Add "settings" key in eslintrc.json file
           >> "react": {"version": "detect"}
                -- tell eslint to what React version to use.
-
 - JSX Composite Components & Expressions
+     > `return ();` parenthesis are used here for block of codes or codes with break lines.
+     > `<tag />` "/" is required in JSX.
+     > in JSX you can use <div />
+     > `{}` Javascript expression
 ```
 
 ## NOTES:
