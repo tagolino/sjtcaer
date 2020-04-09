@@ -157,6 +157,25 @@
           >> Or change the file extension to jsx
           >> .jsx extension is not neccessary according to React team.
 - Configuring ESLint for React
+     > `$ npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react`
+     > `prettier` and `prettier/react` in eslintrc.json file should be in the end of the list
+     > add this also in "extends" key in eslintrc.json file
+          >> "plugin:import/errors"
+          >> "plugin:react/recommended"
+          >> "plugin:jsx-a11y/recommended"
+     > update "plugins" key in eslintrc.json file
+          >> "react"
+          >> "import"
+          >> "jsx-a11y"
+               -- more about accessibility
+     > update "rules" key in eslintrc.json file
+          >> "react/prop-types" : 0  # turn off
+               -- very week prop type checking 
+          >> "no-console": 1  # turn on
+     > Add "settings" key in eslintrc.json file
+          >> "react": {"version": "detect"}
+               -- tell eslint to what React version to use.
+
 - JSX Composite Components & Expressions
 ```
 
