@@ -193,11 +193,12 @@
      > introduce useState
      > [var, setVar]
           >> `var` will be the default value to use
-          >> setVar will be the updater that will be rendered in onChange event
+          >> setVar will be the updater function that will be rendered in onChange event
           >> all hooks begin with "use"
                -- "useState"
                -- "useEffect"
 - Best Practices for Hooks
+     > Hooks should never ever be inside any statement (eg., if or for loops)
 - Configuring ESLint for Hooks
 - Calling the Pet API
 - Unique List item Keys
