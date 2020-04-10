@@ -181,6 +181,21 @@
      > in JSX you can use <div />
      > `{}` Javascript expression
 ```
+---
+
+### Hooks
+
+```
+- Creating a Search Component
+     > Class syntax?
+- Setting State with Hooks
+- Best Practices for Hooks
+- Configuring ESLint for Hooks
+- Calling the Pet API
+- Unique List item Keys
+- Breed Dropdown
+- Custom Hooks
+```
 
 ## NOTES:
 
