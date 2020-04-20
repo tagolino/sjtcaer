@@ -132,7 +132,7 @@
      > Grunt, Gulp, Brunch, Browserify, Rollup
           >> another bundler packages
 - Installing React and ReactDOM
-     > `$ npm install react react-dom
+     > `$ npm install react react-dom`
           >> notice that `-D` is not used because it is not needed here for this is production dependencies
      > other VSCode extension tools:
           >> eslint
@@ -200,8 +200,19 @@
 - Best Practices for Hooks
      > Hooks should never ever be inside any statement (eg., if or for loops)
 - Configuring ESLint for Hooks
+     > `$ npm install -D eslint-plugin-react-hooks`
+     > open `.eslintrc.json` file.
+     > Add in "rules" key {"react-hooks/rules-of-hooks": 2, "react-hooks/exhaustive-deps": 1}
+          >> 2 means make an error
+          >> 1 means warn
+     > Add in "plugins" key "react-hooks".
 - Calling the Pet API
+     > Doing
+     > {ANIMALS.map((animal) => (<option value={animal}>{animal}</option>))}
+     > Is the same as doing something
+     > {ANIMALS.map((animal) => {return <option value={animal}>{animal}</option>})}
 - Unique List item Keys
+     > "key" attribute is unique identifier for specific object
 - Breed Dropdown
 - Custom Hooks
 ```
